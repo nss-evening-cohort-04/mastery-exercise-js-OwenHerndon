@@ -29,7 +29,6 @@ for (var i = 0, space = height-1; i < leaf.length; i++, space--) {
 	tree += leaf[i];
 	
 	var treeSpace = " ";
-	treeSpace.repeat(space);
 
 	console.log(treeSpace.repeat(space) + tree);
 	tree += leaf[i];

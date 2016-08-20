@@ -42,8 +42,9 @@ leaf.fill(char);
 for (var i = 0, space = height-1; i < leaf.length; i++, space--) {
 	
 	tree += leaf[i];
-	
+	var charLength = char.length;
 	var treeSpace = " ";
+	treeSpace = treeSpace.repeat(charLength);
 
 	console.log(treeSpace.repeat(space) + tree);
 	tree += leaf[i];
@@ -87,8 +88,9 @@ leaf.fill(char);
 for (var i = 0, space = height-1; i < leaf.length; i++, space--) {
 	
 	tree += leaf[i];
-	
+	var charLength = char.length;
 	var treeSpace = " ";
+	treeSpace = treeSpace.repeat(charLength);
 
 	console.log(treeSpace.repeat(space) + tree);
 	tree += leaf[i];
